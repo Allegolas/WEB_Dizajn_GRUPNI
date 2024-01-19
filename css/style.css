@@ -270,8 +270,12 @@ a {
         visibility: visible; }
       .preporuke-section .product-item:hover:before {
         height: 70%; }
-  
-
+        .before-footer-section {
+          padding: 7rem 0 12rem 0 !important; }
+          .preporuke-section img{
+            height: 250px;
+          }
+        
   .o-nama-section {
     padding: 7rem 0; }
     .o-nama-section .img-wrap {
