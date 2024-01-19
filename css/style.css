@@ -89,6 +89,19 @@ a {
       margin-right: 0px; }
       .custom-navbar .custom-navbar-cta li:first-child {
         margin-right: 20px; }
+        .custom-navbar .clock
+        .clock {
+          font-size: 4rem;
+          color: #fcfcfc;
+          text-shadow: 0.25rem 0.25rem 0.6rem rgba(255, 255, 255, 0.1);
+          display: flex;
+          gap: 1.5rem;
+          text-align: center;
+        }
+        
+        #seconds {
+          min-width: 5.5rem;
+        }
 
 .hero {
   background-image: url(../slike/a56f6350-ed66-4f28-b8a2-7d986f8beb25.jpeg);
@@ -643,3 +656,8 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+
+
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+
