@@ -1,9 +1,4 @@
-/*
-* Template Name: UntreeStore
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
   overflow-x: hidden;
@@ -96,7 +91,7 @@ a {
         margin-right: 20px; }
 
 .hero {
-  background-image: url(../slike/book-read.gif);
+  background-image: url(../slike/a56f6350-ed66-4f28-b8a2-7d986f8beb25.jpeg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -115,13 +110,16 @@ a {
         max-width: 450px; } }
   .hero h1 {
     font-weight: 700;
-  color: #3b5d50;
+  color: #ffffff;
     margin-bottom: 30px; }
     @media (min-width: 1400px) {
       .hero h1 {
         font-size: 54px; } }
+        .hero h3{
+          color: white;
+        }
   .hero p {
-    color: rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
     font-size: medium;
     margin-botom: 30px; }
   .hero .hero-img-wrap {
@@ -200,6 +198,79 @@ a {
 
 .section-title {
   color: #2f2f2f; }
+
+  .preporuke-section {
+    padding: 7rem 0; }
+    .preporuke-section .product-item {
+      text-align: center;
+      text-decoration: none;
+      display: block;
+      position: relative;
+      padding-bottom: 50px;
+      cursor: pointer; }
+      .preporuke-section .product-item .product-thumbnail {
+        margin-bottom: 30px;
+        position: relative;
+        top: 0;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; }
+      .preporuke-section .product-item h3 {
+        font-weight: 600;
+        font-size: 16px; }
+      .preporuke-section .product-item strong {
+        font-weight: 800 !important;
+        font-size: 18px !important; }
+      .preporuke-section .product-item h3, .product-section .product-item strong {
+        color: #2f2f2f;
+        text-decoration: none; }
+      .preporuke-section .product-item .icon-cross {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        display: inline-block;
+        background: #2f2f2f;
+        bottom: 15px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        margin-bottom: -17.5px;
+        border-radius: 50%;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; }
+        .preporuke-section .product-item .icon-cross img {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+      .preporuke-section .product-item:before {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        content: "";
+        background: #dce5e4;
+        height: 0%;
+        z-index: -1;
+        border-radius: 10px;
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease; }
+      .preporuke-section .product-item:hover .product-thumbnail {
+        top: -25px; }
+      .preporuke-section .product-item:hover .icon-cross {
+        bottom: 0;
+        opacity: 1;
+        visibility: visible; }
+      .preporuke-section .product-item:hover:before {
+        height: 70%; }
+  
 
   .o-nama-section {
     padding: 7rem 0; }
